@@ -11,7 +11,7 @@
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
       if (this.readystate == 4 && this.status == 200) {
-        console.log(xmlHttp.responseText)
+        console.log(xmlHttp.responseText);
       }
     };
     xmlhttp.open("GET", "http://augur.osshealth.io:5000/api/unstable/repo-groups/24/pull-request-acceptance-rate");
